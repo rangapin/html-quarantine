@@ -1,0 +1,47 @@
+body {
+    background-color:  whitesmoke;
+}
+
+.container {
+    padding: 0;
+    margin: 0;
+   display: flex;
+   justify-content: center;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    padding: 48px;
+    margin: 14px;
+    height: 150px;
+    width:  70vw;
+}
+
+.health, .finance, .relation, .happiness {
+    border:  1px solid black;
+    padding: 100px;
+    margin: 14px;
+    text-align: center;
+}
+
+.health {
+    background-color:  dodgerblue;
+}
+
+.finance {
+    background-color:  yellow;
+}
+
+.relation {
+    background-color: red;
+}
+
+.happiness {
+ background-color: green;
+}
+
+
+
+
+
